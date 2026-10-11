@@ -16,8 +16,8 @@ public:
         inorder(root,ans);
         return ans;
     }
-    void inorder(TreeNode* root,vector<int>&a){
-        if(root==NULL) return;
+    void inorder(TreeNode*root,vector<int>&a){
+        if(root == NULL) return;
         inorder(root->left,a);
         a.push_back(root->val);
         inorder(root->right,a);
