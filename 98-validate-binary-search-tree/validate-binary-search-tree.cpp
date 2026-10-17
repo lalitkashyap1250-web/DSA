@@ -23,6 +23,6 @@ public:
         return check(root->left,low,root->val) && check(root->right,root->val,high);
     }
     bool isValidBST(TreeNode* root) {
-        return check(root,LLONG_MIN,LLONG_MAX);
+        return check(root,LONG_MIN,LONG_MAX);
     }
 };
