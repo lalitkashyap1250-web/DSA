@@ -12,9 +12,10 @@ public:
     }
     
     int pop() {
-        int x = peek();
-        output.pop();
-        return x; 
+       peek();
+       int x = output.top();
+       output.pop();
+       return x;
     }
     
     int peek() {
