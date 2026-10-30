@@ -18,6 +18,6 @@ public:
                 right--;
             }
         }
-        return {};
+        return ans;
     }
 };
